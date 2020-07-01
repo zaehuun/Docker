@@ -22,6 +22,10 @@ docker start centos:7
  ```
  docker rm [컨테이너 이름]
  ```
+ ## **이미지 삭제**
+ ```
+ docker rmi [이미지 이름[
+ ```
  
 # **4. 메뉴얼**   
 ## **none image 삭제**   

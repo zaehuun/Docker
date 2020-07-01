@@ -23,5 +23,10 @@ docker start centos:7
  docker rm [컨테이너 이름]
  ```
  
-## **4. 메뉴얼**   
-ㅁ
+# **4. 메뉴얼**   
+## **none image 삭제**   
+![Screenshot from 2020-07-01 13-55-10](https://user-images.githubusercontent.com/51132077/86204513-9fe67c80-bba2-11ea-8d96-610b3a573f7f.png)   
+```
+docker rmi $(docker images -f "dangling=true" -q)
+```
+

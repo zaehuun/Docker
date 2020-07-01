@@ -24,7 +24,7 @@ docker start centos:7
  ```
  ## **이미지 삭제**
  ```
- docker rmi [이미지 이름[
+ docker rmi [이미지 이름
  ```
  
 # **4. 메뉴얼**   

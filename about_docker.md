@@ -127,6 +127,13 @@ docker start centos:7
 ```
 docker rmi $(docker images -f "dangling=true" -q)
 ```
+
+# **5. 같은 컨테이너에서 터미널 창 띄우는 법**
+```
+gnome-terminal
+
+```
+
 **추가 예정**
 
 ㅋㅋ
